@@ -1,0 +1,209 @@
+:root {
+	--primary-text-color: #212121;
+	--title-text-color: #757575;
+	--accent-color: #2196f3;
+	--primary-white-color: #ffffff;
+}
+body {
+	font-family: Roboto, sans-serif;
+	background-color: var(--primary-white-color);
+}
+.list {
+	list-style: none;
+}
+/*header*/
+.header-logo {
+	font-family: Raleway, sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 1.19;
+	text-decoration: none;
+	color: var(--accent-color);
+}
+.header-studio {
+	color: var(--primary-text-color);
+}
+
+.header-link {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	color: var(--primary-text-color);
+	cursor: pointer;
+	text-decoration: none;
+}
+.header-link:hover,
+.header-link:focus {
+	color: var(--accent-color);
+}
+.header-link.current {
+	color: var(--accent-color);
+}
+.header-mail {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	color: var(--title-text-color);
+	text-decoration: none;
+}
+.header-mail:hover,
+.header-mail:focus {
+	color: var(--accent-color);
+}
+.header-tel {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	color: var(--title-text-color);
+	text-decoration: none;
+}
+.header-tel:hover,
+.header-tel:focus {
+	color: var(--accent-color);
+}
+/*hero*/
+.hero {
+	background-color: #2f303a;
+	color: var(--primary-white-color);
+}
+.hero-headline {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-align: center;
+	text-transform: uppercase;
+}
+.hero-btn {
+	font-family: Roboto, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.88;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: var(--primary-white-color);
+	cursor: pointer;
+	background-color: #188ce8;
+	border: none;
+	border-radius: 4px;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+	color: #188ce8;
+	background-color: var(--primary-white-color);
+}
+.hero-btn:active {
+	color: var(--primary-white-color);
+	background-color: #188ce8;
+}
+/*main page*/
+
+.promo-subject {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+}
+.promo-desc {
+	font-size: 14px;
+	line-height: 1.71;
+	color: var(--title-text-color);
+}
+.direction-activity-titel,
+.team-title {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 1.17;
+}
+.team {
+	background-color: #f5f4fa;
+}
+.team-item {
+	background-color: var(--primary-white-color);
+}
+.team-member {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+}
+.team-member-position {
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+	color: var(--title-text-color);
+}
+/*footer*/
+.footer {
+	background-color: #2f303a;
+}
+.footer-logo {
+	font-family: Raleway, sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 1.19;
+	color: var(--accent-color);
+	text-decoration: none;
+}
+.footer-studio {
+	color: var(--primary-white-color);
+}
+.footer-geolocation {
+	font-size: 14px;
+	line-height: 1.71px;
+	color: var(--primary-white-color);
+	text-decoration: none;
+	font-style: normal;
+}
+.footer-mail,
+.footer-tel {
+	font-size: 14px;
+	line-height: 1.71;
+	color: rgba(255, 255, 255, 0.6);
+	text-decoration: none;
+	font-style: normal;
+}
+.footer-geolocation:hover,
+.footer-geolocation:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+	color: var(--accent-color);
+}
+
+/*portfolio*/
+.portfolio-btn-everyone {
+	font-family: Roboto, sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.63;
+	text-align: center;
+	color: var(--primary-text-color);
+	cursor: pointer;
+	background-color: #f5f4fa;
+	border: none;
+	border-radius: 4px;
+}
+.portfolio-btn-everyone:hover,
+.portfolio-btn-everyone:focus {
+	color: var(--primary-white-color);
+	background-color: var(--accent-color);
+}
+.portfolio-btn-everyone:active {
+	color: var(--primary-white-color);
+}
+.corol-change {
+	color: var(--primary-white-color);
+	background-color: var(--accent-color);
+}
+.portfolio-example-title {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 2;
+}
+.portfolio-example-text {
+	font-size: 16px;
+	line-height: 1.88;
+	color: var(--title-text-color);
+}

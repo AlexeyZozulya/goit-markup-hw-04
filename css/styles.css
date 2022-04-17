@@ -17,8 +17,8 @@ body {
 	margin: 0;
 	font-family: Roboto, sans-serif;
 	background-color: var(--primary-white-color);
-	/* color: var(-primary-text-color)
-	letter-spacing: 0.03em; */
+	color: var(-primary-text-color)
+	letter-spacing: 0.03em; 
 }
 .container {
 	width: 1200px;
@@ -124,6 +124,9 @@ body {
 
 /*hero*/
 .hero {
+	max-width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
 	padding-top: 200px;
 	padding-bottom: 200px;
 

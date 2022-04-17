@@ -345,21 +345,21 @@ body {
 .client-list {
 	display: flex;
 }
-.client-item {
+/* .client-item {
 	border: 1px solid #afb1b8;
 	border-radius: 4px;
 	width: 170px;
 	height: 92px;
-}
+} */
 
 .client-item + .client-item {
 	margin-left: 30px;
 }
 
-.client-item:focus,
+/* .client-item:focus,
 .client-item:hover {
 	border-color: var(--accent-color);
-}
+} */
 
 .client-link {
 	display: flex;
@@ -368,10 +368,17 @@ body {
 	width: 170px;
 	height: 91px;
 	fill: #afb1b8;
+
+	border: 1px solid #afb1b8;
+	border-radius: 4px;
+	width: 170px;
+	height: 92px;
 }
+
 .client-link:hover,
 .client-link:focus {
 	fill: var(--accent-color);
+	border-color: var(--accent-color);
 }
 
 .company-one,
